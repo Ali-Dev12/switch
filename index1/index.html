@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>M2S</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <img src="images/Ali_ahlafi_134_45_px_V5.svg" alt="Brand" class="navbarBrand"></img>
+            <div class="navItems">
+            <a href="#accueil" class="navLink">accueil</a>
+            <a href="#apropos" class="navLink focusNav">apropos</a>
+            <a href="#services" class="navLink">Services</a>
+            <a href="#contact" class="navLink">contact</a>
+            </div>
+            <div class="modal-container">
+                <div class="overlay modal-trigger"></div>
+                <div class="modal" role="dialog" aria-labelledby="modalTitle" aria-describedby="dialogDesc">
+                    <button aria-label="close modal" class="close-modal modal-trigger">X</button>
+                    <h1 id="modalTitle">Nous Contacter</h1>
+                    <div class="assets">
+                        <a href="#" class="cntc"><i class="fa-solid fa-phone"></i> +212 621 12 21 12</a>
+                        <a href="#" class="cntc"><i class="fa-solid fa-envelope"></i> contact@m2s.com</a>
+                        <a href="#" class="cntc"><i class="fa-solid fa-location"></i> 12 Rue xxxxxxx imm12 ,Fes</a>
+                    </div>
+            </div>
+            <button class="modal-btn modal-trigger"><i class="fa-solid fa-map"></i> Nous Trouver</button>
+        </nav>
+    </header>
+
+    <section id="menuFix" class="menuFix">
+        <a href="#"><i class="fa-solid fa-home"></i></a>
+    </section>
+
+    <section id="accueil" class="accueil containerPr">
+        <h1>M<span class="colB">2</span>S</h1>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quis itaque delectus!</h3>
+        <a href="https://www.aliahlafi.com" target="_blank" class="btnWave">Page Principale</a>
+    </section>
+
+    <section id="apropos" class="apropos containerPr">
+        <h2 class="titreP">A propos</h2>
+        <div class="wrapper"></div>
+        <video src="video/pub1.mp4" autoplay controls muted loop id="pub"></video>
+        <div class="container">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/prod1.jfif">
+                </div>
+                <div class="layer layer1"></div>
+                <div class="layer layer2"></div>
+                <div class="contentBx">
+                    <div>
+                        <h2>Prod 1</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/prod2.jfif">
+                </div>
+                <div class="layer layer1"></div>
+                <div class="layer layer2"></div>
+                <div class="contentBx">
+                    <div>
+                        <h2>Prod 2</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/prod3.jfif">
+                </div>
+                <div class="layer layer1"></div>
+                <div class="layer layer2"></div>
+                <div class="contentBx">
+                    <div>
+                        <h2>Prod 3</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services containerPr">
+        <h2 class="titreP titre">Services</h2>
+        <div class="wrapper"></div>
+    </section>
+
+    <section id="contact" class="contact containerPr">
+        <h2 class="titreP">Contact</h2>
+        <div class="wrapper"></div>
+        <form action="POST" class="contact-form">
+            <input type="text" placeholder="Entrez Votre Nom">
+            <input type="email" placeholder="Entrez Votre Email">
+            <textarea name="message" id="messageCntn" placeholder="Votre message"></textarea>
+            <input type="submit" value="Envoyer Le Message">
+        </form>
+    </section>
+
+    <footer id="footer" class="containerFt">
+        <div class="socials">
+            <a href="#" class="redirect"><i class="fa-brands fa-facebook" title="Notre page Facebook"></i></a>
+            <a href="#" class="redirect"><i class="fa-brands fa-linkedin" title="Notre page LinkedIn"></i></a>
+            <a href="#" class="redirect"><i class="fa-brands fa-youtube" title="Notre chaine Youtube"></i></a>
+        </div>
+        <h2 class="copy">Copyright © M2S | 2022, Tout Droits Reservées</h2>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
